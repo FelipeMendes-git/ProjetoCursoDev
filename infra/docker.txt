@@ -1,0 +1,2 @@
+docker compose -f infra/compose.yaml up -d
+docker exec -it infra-database-1-database-1 psql -U postgres
